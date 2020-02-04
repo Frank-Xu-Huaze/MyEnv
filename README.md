@@ -29,6 +29,7 @@ git clone git@github.com:Frank-Xu-Huaze/MyEnv.git
 
 6. Make sure the env is complete
 ```
+sudo apt-get install python3-venv
 sudo apt-get install --reinstall build-essential
 ```
 
