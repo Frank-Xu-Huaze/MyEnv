@@ -63,4 +63,4 @@ c.NotebookApp.port = 8888
 gsutil cp gs://hazel-cipher-265321.appspot.com/data1.pkl ~/
 ```
 
-
+10. Open jupyter at: https://35.232.122.96:8888
