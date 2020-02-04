@@ -42,7 +42,7 @@ make install
 ```
 
 8. Setup and Configure jupyter file
-```python
+```
 jupyter notebook --generate-config
 ```
 ```python
