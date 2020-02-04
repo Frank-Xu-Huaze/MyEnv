@@ -8,9 +8,9 @@ Example for setting up jupyter notebook on google cloud instance:
 2. set external ip address to static
 
 3. 
-'''python
+```python
 gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1 -- -L 8080:localhost:8080
-'''
+```
 
 2. 
 ssh-keygen -t rsa, set the key to your github
