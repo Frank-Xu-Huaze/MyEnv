@@ -11,7 +11,7 @@ Example for setting up jupyter notebook on google cloud instance:
 2. Set external ip address to static
 
 3. connect to your instance
-```python
+```
 gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1 -- -L 8080:localhost:8080
 ```
 
@@ -21,14 +21,14 @@ ssh-keygen -t rsa
 ```
 
 5. Git clone
-```python
+```
 sudo apt install git
 
 git clone git@github.com:Frank-Xu-Huaze/MyEnv.git
 ```
 
 6. Make sure the env is complete
-```python
+```
 sudo apt-get install --reinstall build-essential
 ```
 
