@@ -25,6 +25,8 @@ ssh-keygen -t rsa
 sudo apt install git
 
 git clone git@github.com:Frank-Xu-Huaze/MyEnv.git
+or
+git clone https://github.com/Frank-Xu-Huaze/MyEnv.git
 ```
 
 6. Make sure the env is complete
