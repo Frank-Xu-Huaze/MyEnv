@@ -4,3 +4,4 @@ matplotlib
 sklearn
 flask
 jupyter
+category_encoders
