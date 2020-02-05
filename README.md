@@ -46,19 +46,7 @@ make install
 
 8. Setup and Configure jupyter file
 ```
-jupyter notebook --generate-config
-```
-```python
-vim ~/.jupyter/jupyter_notebook_config.py
-```
-
-and add:
-
-```python
-c = get_config()
-c.NotebookApp.ip = '*'
-c.NotebookApp.open_browser = False
-c.NotebookApp.port = 8888
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
 ```
 
 9. Download data
