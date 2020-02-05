@@ -12,7 +12,7 @@ Example for setting up jupyter notebook on google cloud instance:
 
 3. connect to your instance
 ```
-gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1 -- -L 8080:localhost:8080
+gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1
 ```
 
 4. Generate key and set the key to your github
