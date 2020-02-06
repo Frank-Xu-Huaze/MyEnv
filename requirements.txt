@@ -5,3 +5,5 @@ sklearn
 flask
 jupyter
 category_encoders
+scipy
+pytest
