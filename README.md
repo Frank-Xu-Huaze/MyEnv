@@ -58,4 +58,8 @@ gsutil cp gs://hazel-cipher-265321.appspot.com/data1.pkl ~/ && gsutil cp gs://ha
 ```
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
 ```
+9. Open up the lab interface
+```
+https://<external static IP>:8888
+```
 
