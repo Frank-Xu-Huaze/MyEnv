@@ -15,28 +15,32 @@ Example for setting up jupyter notebook on google cloud instance:
 gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1
 ```
 
-4. Generate key and set the key to your github
-```python
-ssh-keygen -t rsa
-```
-
-5. Git clone
+4. Git Clone
 ```
 sudo apt install git
-
+```
+then
+```
+ssh-keygen -t rsa
 git clone git@github.com:Frank-Xu-Huaze/MyEnv.git
+```
 or
+
+```
 git clone https://github.com/Frank-Xu-Huaze/MyEnv.git
 ```
 
-6. Make sure the env is complete
+5. Make sure the env is complete
 ```
 sudo apt-get install python3-venv
 sudo apt-get install --reinstall build-essential
 ```
 
-7. Makefile
+6. Makefile
 ```python
+
+cd MyEnv
+
 make setup
 
 source ~/.env/bin/activate
@@ -44,14 +48,14 @@ source ~/.env/bin/activate
 make install
 ```
 
+7. Download data
+```python
+gsutil cp gs://hazel-cipher-265321.appspot.com/data1.pkl ~/ && gsutil cp gs://hazel-cipher-265321.appspot.com/Model2.ipynb ~/
+
+```
+
 8. Setup and Configure jupyter file
 ```
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
 ```
 
-9. Download data
-```python
-gsutil cp gs://hazel-cipher-265321.appspot.com/data1.pkl ~/
-```
-
-10. Open jupyter at: https://35.232.122.96:8888
