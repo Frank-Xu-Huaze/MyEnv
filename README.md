@@ -17,7 +17,7 @@ gcloud compute ssh --project hazel-cipher-265321 --zone us-central1-a instance-1
 
 4. Git Clone
 ```
-sudo apt install git
+sudo apt-get install git
 ```
 then
 ```
