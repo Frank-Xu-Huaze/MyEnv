@@ -50,7 +50,7 @@ make install
 
 7. Download data
 ```python
-gsutil cp gs://hazel-cipher-265321.appspot.com/data1.pkl ~/ && gsutil cp gs://hazel-cipher-265321.appspot.com/Model2.ipynb ~/
+gsutil cp gs://franksbucket/data1.pkl ~/ && gsutil cp gs://franksbucket/Model2.ipynb ~/
 
 ```
 
